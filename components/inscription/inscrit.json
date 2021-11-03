@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_inscription_inscrits",
+  "info": {
+    "name": "inscrit",
+    "icon": "male",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nomInscrit": {
+      "type": "string"
+    }
+  }
+}

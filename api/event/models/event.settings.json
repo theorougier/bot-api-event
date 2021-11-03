@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "name": "Event",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nomEvent": {
+      "type": "string"
+    },
+    "inscrit": {
+      "type": "component",
+      "repeatable": true,
+      "component": "inscription.inscrit"
+    }
+  }
+}
