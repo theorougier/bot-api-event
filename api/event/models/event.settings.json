@@ -19,6 +19,12 @@
       "type": "component",
       "repeatable": true,
       "component": "inscription.inscrit"
+    },
+    "dateDebutEvent": {
+      "type": "date"
+    },
+    "dateFinEvent": {
+      "type": "date"
     }
   }
 }
